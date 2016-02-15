@@ -11,64 +11,43 @@
     <div class="container">
       <h1>Political beliefs</h1>
 
-      <p>tell me a few things about your values</p>
+      <p>tell me a few things about yourself</p>
 
-      <form id="insurance">
-        <label for="age">Age</label>
-        <input id="age" type="text">
-        <label for="gender">Gender</label>
-        <select id="gender">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-        </select>
 
-        <button type="submit" class="btn">Calculate my quote</button>
-      </form>
+        <form id="worldview">
+          <label for="age">Are you over the age of 50?</label>
+          <select id="age">
+            <option value="liberal">yes</option>
+            <option value="conservative">no</option>
+          </select>
+          <br>
+          <label for="racist">Do you believe President Obama is muslim?</label>
+          <select id="racist">
+            <option value="liberal">no</option>
+            <option value="conservative">yes</option>
+          </select>
+          <br>
 
-      <div id="quote">
-        <p>You will have to pay $<span id="rate"></span> per month to get car insurance. You should probably just bike or take the bus.</p>
+          <label for="liberal_conspiracy">Do you believe George W. secretly planned the 911 attacks?</label>
+          <select id="liberal_consipracy">
+            <option value="liberal">yes</option>
+            <option value="conservative">no</option>
+          </select>
+          <br>
+          <label for="conservative_fear">Do you believe the federal government is limiting your freedoms?</label>
+          <select id="conservative_fear">
+            <option value="liberal">no</option>
+            <option value="conservative">yes</option>
+          </select>
+          <br>
+          <label for="liberal_fear">Do you believe large corporations are hindering cultural progress?</label>
+          <select id="liberal fear">
+            <option value="liberal">yes</option>
+            <option value="conservative">no</option>
+          </select>
+          <br>
+          <button type="submit" class="btn">Calculate my quote</button>
+        </form>
       </div>
-    </div>
-  </body>
-<!-- http://getbootstrap.com/css/#forms -->
-
-<!-- Validation states -->
-
-  <!-- <div class="form-group has-success">
-  <label class="control-label" for="inputSuccess1">Input with success</label>
-  <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
-  <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
-</div>
-<div class="form-group has-warning">
-  <label class="control-label" for="inputWarning1">Input with warning</label>
-  <input type="text" class="form-control" id="inputWarning1">
-</div>
-<div class="form-group has-error">
-  <label class="control-label" for="inputError1">Input with error</label>
-  <input type="text" class="form-control" id="inputError1">
-</div>
-<div class="has-success">
-  <div class="checkbox">
-    <label>
-      <input type="checkbox" id="checkboxSuccess" value="option1">
-      Checkbox with success
-    </label>
-  </div>
-</div>
-<div class="has-warning">
-  <div class="checkbox">
-    <label>
-      <input type="checkbox" id="checkboxWarning" value="option1">
-      Checkbox with warning
-    </label>
-  </div>
-</div>
-<div class="has-error">
-  <div class="checkbox">
-    <label>
-      <input type="checkbox" id="checkboxError" value="option1">
-      Checkbox with error
-    </label>
-  </div>
-</div> -->
-</html>
+    </body>
+  </html>
