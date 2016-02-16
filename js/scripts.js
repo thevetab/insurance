@@ -9,12 +9,12 @@ $(document).ready(function() {
 		$("#age").confirm(liberal);
       {
 
-    var racist = $("select#racist").val();
+    var racial_bias = $("select#racial_bias").val();
 
-    if (racist === "yes" ) {
-        $("#racist").confirm(conservative);
-      } else if (racist === "no") 
-		$("#racist").confirm(liberal);
+    if (racial_bias === "yes" ) {
+        $("#racial_bias").confirm(liberal);
+      } else if (racial_bias === "no") 
+		$("#racial_bias").confirm(conservative);
       {
 
     var liberal_conspiracy = $("select#liberal_conspiracy").val();
@@ -25,12 +25,12 @@ $(document).ready(function() {
 		$("#liberal_conspiracy").confirm(conservative);
       {
 
-    var liberal_conspiracy = $("select#liberal_conspiracy").val();
+    var conservative_fear = $("select#liberal_conspiracy").val();
 
-    if (liberal_conspiracy === "yes" ) {
-        $("#liberal_conspiracy").confirm(5);
-      } else if (liberal_conspiracy === "no") 
-		$("#liberal_conspiracy").confirm(1);
+    if (conservative_fear === "yes" ) {
+        $("#conservative_fear").confirm(5);
+      } else if (conservative_fear === "no") 
+		$("#conservative_fear").confirm(1);
       {
   //   alert("Now don't go crazy!");
 
